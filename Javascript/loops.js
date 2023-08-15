@@ -8,17 +8,17 @@
 // Atualização: Após cada iteração bem-sucedida, a atualização é executada,
 //  permitindo que você modifique a variável de controle.
 
-// for (let i = 0; i <= 10; i++){
-//     console.log(i)
-// }
+for (let i = 0; i <= 10; i++){
+    console.log(i)
+}
 
-// const nomesAlunos = ['Ana', 'Carlos', 'Felipe', 'Adriano', 'Rodrigo', 'Emerson', 'Leticia']
+const nomesAlunos = ['Ana', 'Carlos', 'Felipe', 'Adriano', 'Rodrigo', 'Emerson', 'Leticia']
 
-// for(let nomeAluno = 0; nomeAluno <nomesAlunos.length; nomeAluno++){
-//     setTimeout(()=>{
-//         console.log(nomesAlunos[nomeAluno])
-//     },2000)
-// }
+for(let nomeAluno = 0; nomeAluno <nomesAlunos.length; nomeAluno++){
+    setTimeout(()=>{
+        console.log(nomesAlunos[nomeAluno])
+    },2000)
+}
 
 // ============================================== WHILE ========================================================
 // O "while" é uma estrutura de repetição que executa um bloco um bloco de código enquanto a condição 
